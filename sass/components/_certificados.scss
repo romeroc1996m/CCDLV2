@@ -2,14 +2,19 @@
     background-image: url(/images/Certificados1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 2100px;
 }
 
 #titulo_cert {
-    margin-top: 50px;
+    margin-top: 40px;
     grid-column: 1/5;
     font-family: "Poppins", sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
+}
+
+#certificado {
+    width: 305px;
 }
 
 #bureau {
@@ -28,22 +33,64 @@
     text-align: center;
 }
 
+#certificado1 {
+    width: 305px;
+    margin-right: 700px;
+}
+
+#certificado2 {
+    width: 305px;
+    margin-right: 0px;
+}
+
+.certificado2 {
+    width: 305px;
+}
+
+#certificado3 {
+    width: 305px;
+}
+
+
 @media screen and (min-width:768px) {
 
     #titulo_cert {
         margin-top: 50px;
         grid-column: 4/10;
         font-size: 40px;
+        align-content: center;
     }
 
     #bureau {
         grid-column: 2/12;
-        margin-top: 50px;
+        height: 250px;
     }
     
     #ambiental {
         grid-column: 2/12;
-        margin-top: 80px;
+    }
+
+    #titulo_ambiental {
+        margin-bottom: 50px;
+    }
+
+    #certificado1 {
+        width: 250px;
+        margin-right: 700px;
+    }
+    
+    #certificado2 {
+        width: 250px;
+        margin-right: 0px;
+    }
+
+    .certificado2 {
+        margin-left: 170px;
+    }
+        
+    #certificado3 {
+        width: 250px;
+        margin-left: 350px;
     }
 
 }
@@ -53,17 +100,39 @@
     #titulo_cert {
         margin-top: 50px;
         grid-column: 4/10;
-        font-size: 40px;
+        font-size: 55px;
     }
 
     #bureau {
         grid-column: 2/12;
-        margin-top: 50px;
     }
     
     #ambiental {
         grid-column: 2/12;
-        margin-top: 80px;
+    }
+
+    #certificado1 {
+        width: 350px;
+        margin-top: 40px;
+    }
+
+    #certificado2 {
+        width: 350px;
+        margin-top: 40px;
+    }
+
+    .certificado2{
+        margin-left: 350px;
+    }
+
+    #certificado3 {
+        width: 350px;
+        margin-top: 40px;
+        margin-left: 550px;
+    }
+
+    .certificado3{
+        margin-left: 600px;
     }
 }
 
@@ -72,7 +141,7 @@
     #titulo_cert {
         margin-top: 50px;
         grid-column: 4/10;
-        font-size: 40px;
+        font-size: 55px;
     }
 
     #bureau {
