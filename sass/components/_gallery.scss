@@ -1,3 +1,8 @@
+#gallery {
+    height: 1400px;
+}
+
+
 #titulo_gallery {
     margin-top: 50px;
     grid-column: 1/5;
@@ -222,9 +227,11 @@
     transform: scale(1);
 }
 
-
-
 @media screen and (min-width:768px) {
+
+    #gallery {
+        height: 670px;
+    }
 
     #titulo_gallery {
         margin-top: 50px;
