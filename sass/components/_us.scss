@@ -1,5 +1,5 @@
 #us {
-    height: 500px;
+    height: 1400px;
     background-color: #fff;
 }
 
@@ -53,6 +53,10 @@
 
   @media screen and (min-width:768px) {
 
+    #us {
+        height: 500px;
+    }
+
     #logo-us {
         grid-column: 1/6;
     }
@@ -77,10 +81,9 @@
 
     .us_button {
         height: 59px;
-        grid-column: 8/12;
         font-size: 25px;
         margin-top: 415px;
-        grid-row: 1;
+        margin-left: 60px;
       }
   }
 
