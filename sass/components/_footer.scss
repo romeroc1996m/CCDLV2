@@ -3,6 +3,19 @@ footer {
     background-position: 50%;  
     background-size:cover;
     background-repeat: no-repeat; 
+    height: 250px;
+}
+
+.whatsapp {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.facebook {
+    width: 48px;
+    height: 48px;
+    margin-top: 17px;
 }
 
 #logo-footer {
@@ -21,6 +34,7 @@ footer {
 
 #copy {
     grid-column: 4/5;
+    margin-top: 80px;
 }
 
 @media screen and (min-width:768px) {
@@ -41,9 +55,17 @@ footer {
         text-align: left;
     }
     
+    .whatsapp {
+        margin-top: 130px;
+    }
+    
+    .facebook {
+        margin-top: 130px;
+    }
+
     #copy {
         grid-column: 11/12;
-        margin-top: 50px;
+        margin-top: 220px;
     }
 }
 
@@ -69,7 +91,7 @@ footer {
     
     #copy {
         grid-column: 11/12;
-        margin-top: 60px;
+        margin-top: 190px;
         font-size: 20px;
     }
 
