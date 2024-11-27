@@ -30,6 +30,7 @@
     #img-title {
         font-family: "Poppins", sans-serif;
         font-size: 30px;
+        text-shadow: 1px 1px 2px black;
         color: #fff;
         grid-column: 1/8;
         grid-row: 1;
@@ -39,39 +40,43 @@
 
 @media screen and (min-width:768px) {
     #hero {
-        height: 400px;
+        height: 500px;
     }
 
     #img-title {
-        grid-column: 2/9;
+        grid-column: 1/10;
+        font-size: 50px;
     }
 
     .hero_button {
-        margin-left: 190px;
-        margin-top: 260px;
+        margin-left: -400px;
+        margin-top: 290px;
+        width: 200px;
     }
 }
 
 @media screen and (min-width:1200px) {
     
     #hero {
-        height: 550px;
+        height: 750px;
     }
 
     .hero_button {
         height: 59px;
         grid-row: 1;
         grid-column: 2/7;
-        margin-top: 350px;
+        margin-top: 450px;
         margin-left: 320px;
         font-size: 30px;
+        width: 250px;
     }
 
     #img-title {
         grid-column: 2/9;
         grid-row: 1;
-        font-size: 50px;
-        margin-top: 140px;
+        font-size: 55px;
+        margin-top: 260px;
+        
     }
 
 }
